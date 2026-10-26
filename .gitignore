@@ -1,0 +1,11 @@
+# Secrets and local credentials: never commit
+.env
+.env.*
+!.env.example
+secrets.yaml
+*.pem
+*.key
+*.p12
+*credentials*.json
+*token*.json
+.storage/
